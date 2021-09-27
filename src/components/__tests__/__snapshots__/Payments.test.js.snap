@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Payments Table Test  has a valid snapshot 1`] = `
+<div
+  role="main"
+>
+  <h1
+    style={
+      Object {
+        "color": "blue",
+        "fontSize": "2rem",
+      }
+    }
+  >
+    Payment Listing
+  </h1>
+  <div>
+    <div
+      className="mb-2 btn-group"
+      role="group"
+    >
+      <label
+        className="btn active btn-secondary"
+        disabled={false}
+        id="radio-0"
+      >
+        <input
+          autoComplete="off"
+          checked={true}
+          disabled={false}
+          name="radio"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          type="radio"
+          value="1"
+        />
+        All
+      </label>
+      <label
+        className="btn btn-secondary"
+        disabled={false}
+        id="radio-1"
+      >
+        <input
+          autoComplete="off"
+          checked={false}
+          disabled={false}
+          name="radio"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          type="radio"
+          value="A"
+        />
+        Approved
+      </label>
+      <label
+        className="btn btn-secondary"
+        disabled={false}
+        id="radio-2"
+      >
+        <input
+          autoComplete="off"
+          checked={false}
+          disabled={false}
+          name="radio"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          type="radio"
+          value="C"
+        />
+        Cancelled
+      </label>
+      <label
+        className="btn btn-secondary"
+        disabled={false}
+        id="radio-3"
+      >
+        <input
+          autoComplete="off"
+          checked={false}
+          disabled={false}
+          name="radio"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          type="radio"
+          value="P"
+        />
+        Pending
+      </label>
+    </div>
+  </div>
+  <div>
+    <table
+      className="table table-sm table-striped table-bordered table-hover"
+      data-testid="payments-table"
+      id="payments-table"
+    >
+      <thead>
+        <tr>
+          <th>
+            Amount
+          </th>
+          <th>
+            Currency
+          </th>
+          <th>
+            Date
+          </th>
+          <th>
+            Status
+          </th>
+          <th>
+            Type
+          </th>
+          <th>
+            From
+          </th>
+          <th>
+            To
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          data-testid="payments-row"
+        >
+          <td>
+            558.52
+          </td>
+          <td>
+            GBP
+          </td>
+          <td>
+            24-Sep-2021
+          </td>
+          <td>
+            Pending
+          </td>
+          <td>
+            FASTER
+          </td>
+          <td>
+            Checking Account
+            <br />
+            09189790
+             - 
+            521698
+          </td>
+          <td>
+            Investment Account
+            <br />
+            63385533
+             - 
+            381692
+          </td>
+        </tr>
+        <tr
+          data-testid="payments-row"
+        >
+          <td>
+            157.79
+          </td>
+          <td>
+            GBP
+          </td>
+          <td>
+            24-Sep-2021
+          </td>
+          <td>
+            Cancelled
+          </td>
+          <td>
+            FASTER
+          </td>
+          <td>
+            Credit Card Account
+            <br />
+            19862324
+             - 
+            775809
+          </td>
+          <td>
+            Investment Account
+            <br />
+            55339636
+             - 
+            374903
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div>
+      <button
+        className="btn btn-primary"
+        disabled={false}
+        onClick={[Function]}
+        type="button"
+      >
+        Load more
+      </button>
+    </div>
+  </div>
+</div>
+`;
